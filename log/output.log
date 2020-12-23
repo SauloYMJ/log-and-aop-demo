@@ -1,0 +1,373 @@
+09:06:37.521 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 15912 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+09:06:37.521 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:06:38.104 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:06:38.120 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:06:38.120 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:06:38.120 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:06:38.151 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:06:38.151 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 599 ms
+09:06:38.324 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:06:38.465 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:06:38.480 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:06:38.480 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.212 seconds (JVM running for 1.612)
+09:06:42.057 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:06:42.057 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:06:42.058 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+09:06:42.069 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - before selectAll
+09:06:42.075 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTests - name:yinmingjun, password:123
+09:06:42.076 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTests - error
+09:06:42.076 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - Returning:{}success
+09:06:42.076 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - after selectAll
+09:06:53.296 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 9312 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+09:06:53.296 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:06:53.866 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:06:53.866 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:06:53.866 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:06:53.866 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:06:53.915 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:06:53.915 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 588 ms
+09:06:54.102 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:06:54.227 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:06:54.244 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:06:54.248 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.206 seconds (JVM running for 1.599)
+09:06:56.511 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:06:56.511 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:06:56.512 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+09:06:56.524 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - before selectAll
+09:06:56.530 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTests - name:yinmingjun, password:123
+09:06:56.530 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTests - error
+09:06:56.531 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - Returning:{}success
+09:06:56.531 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - after selectAll
+09:06:58.465 [http-nio-8080-exec-4] INFO  com.ymj.demo.Logging - before selectAll
+09:06:58.465 [http-nio-8080-exec-4] INFO  com.ymj.demo.LoggerTests - name:yinmingjun, password:123
+09:06:58.465 [http-nio-8080-exec-4] ERROR com.ymj.demo.LoggerTests - error
+09:06:58.466 [http-nio-8080-exec-4] INFO  com.ymj.demo.Logging - Returning:{}success
+09:06:58.466 [http-nio-8080-exec-4] INFO  com.ymj.demo.Logging - after selectAll
+09:09:35.180 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 11280 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+09:09:35.180 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:09:35.764 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:09:35.780 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:09:35.780 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:09:35.780 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:09:35.811 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:09:35.811 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 600 ms
+09:09:35.984 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:09:36.125 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:09:36.125 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:09:36.140 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.196 seconds (JVM running for 1.601)
+09:09:39.868 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:09:39.868 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:09:39.869 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+09:09:39.880 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - before selectAll
+09:09:39.886 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTests - name:yinmingjun, password:123
+09:09:39.886 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTests - error
+09:09:39.887 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - Returning:{}success
+09:09:39.887 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - after selectAll
+09:09:57.265 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 15196 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+09:09:57.281 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:09:57.726 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:09:57.726 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:09:57.726 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:09:57.726 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:09:57.773 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:09:57.773 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 477 ms
+09:09:57.882 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:09:57.960 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:09:57.960 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:09:57.976 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 0.951 seconds (JVM running for 1.338)
+09:10:00.784 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:10:00.784 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:10:00.785 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+09:10:00.794 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTests - name:yinmingjun, password:123
+09:10:00.795 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTests - error
+09:16:40.276 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 15128 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+09:16:40.276 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:16:40.736 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:16:40.736 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:16:40.736 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:16:40.736 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:16:40.783 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:16:40.783 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 491 ms
+09:16:40.861 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:16:40.956 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:16:40.956 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:16:40.972 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 0.939 seconds (JVM running for 1.349)
+09:16:48.150 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:16:48.150 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:16:48.150 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+09:16:50.855 [http-nio-8080-exec-3] INFO  com.ymj.demo.LoggerTestsController - name:yinyifan, password:456
+09:16:50.855 [http-nio-8080-exec-3] ERROR com.ymj.demo.LoggerTestsController - test2 error message!
+09:17:17.800 [http-nio-8080-exec-8] INFO  com.ymj.demo.LoggerTestsController - name:yinmingjun, password:123
+09:17:17.800 [http-nio-8080-exec-8] ERROR com.ymj.demo.LoggerTestsController - test1 error message
+09:17:52.805 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 4632 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+09:17:52.805 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:17:53.260 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:17:53.260 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:17:53.260 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:17:53.260 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:17:53.307 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:17:53.307 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 471 ms
+09:17:53.402 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:17:53.486 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:17:53.486 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:17:53.502 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 0.936 seconds (JVM running for 1.309)
+09:17:57.881 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:17:57.881 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:17:57.881 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+09:17:57.891 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTestsController - name:yinmingjun, password:123
+09:17:57.892 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTestsController - test1 error message
+09:18:21.750 [http-nio-8080-exec-2] INFO  com.ymj.demo.LoggerTestsController - name:yinyifan, password:456
+09:18:21.751 [http-nio-8080-exec-2] ERROR com.ymj.demo.LoggerTestsController - test2 error message!
+09:19:23.449 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 19168 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+09:19:23.449 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:19:23.973 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:19:23.973 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:19:23.973 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:19:23.973 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:19:24.020 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:19:24.020 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 540 ms
+09:19:24.129 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:19:24.207 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:19:24.223 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:19:24.223 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.024 seconds (JVM running for 1.404)
+09:19:29.105 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:19:29.106 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:19:29.106 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+09:19:29.117 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - before selectAll
+09:19:29.125 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTestsController - name:yinyifan, password:456
+09:19:29.125 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTestsController - test2 error message!
+09:19:29.126 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - Returning:{}test2 success
+09:19:29.126 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - after selectAll
+09:19:49.854 [http-nio-8080-exec-2] INFO  com.ymj.demo.LoggerTestsController - name:yinmingjun, password:123
+09:19:49.855 [http-nio-8080-exec-2] ERROR com.ymj.demo.LoggerTestsController - test1 error message
+09:23:56.933 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 12436 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+09:23:56.933 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:23:57.465 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:23:57.465 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:23:57.465 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:23:57.465 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:23:57.512 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:23:57.512 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 548 ms
+09:23:57.612 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:23:57.705 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:23:57.705 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:23:57.721 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.03 seconds (JVM running for 1.444)
+09:24:00.920 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:24:00.921 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:24:00.921 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+09:24:00.939 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTestsController - info级别日志，name:yinmingjun, password:123
+09:24:00.939 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTestsController - error级别日志，test1 error message!
+09:24:07.554 [http-nio-8080-exec-4] INFO  com.ymj.demo.Logging - before selectAll
+09:24:07.554 [http-nio-8080-exec-4] INFO  com.ymj.demo.LoggerTestsController - info级别日志，name:yinyifan, password:456
+09:24:07.554 [http-nio-8080-exec-4] ERROR com.ymj.demo.LoggerTestsController - error级别日志，test2 error message!
+09:24:07.555 [http-nio-8080-exec-4] INFO  com.ymj.demo.Logging - Returning:{}test2 success
+09:24:07.555 [http-nio-8080-exec-4] INFO  com.ymj.demo.Logging - after selectAll
+09:31:28.500 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 8704 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+09:31:28.502 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:31:29.092 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:31:29.096 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:31:29.097 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:31:29.097 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:31:29.138 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:31:29.138 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 604 ms
+09:31:29.241 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:31:29.326 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:31:29.336 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:31:29.342 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.091 seconds (JVM running for 1.485)
+09:31:37.370 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:31:37.370 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:31:37.370 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+09:31:37.381 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - before selectAll
+09:31:37.387 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTestsController - info级别日志，name:yinyifan, password:456
+09:31:37.387 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTestsController - error级别日志，test2 error message!
+09:31:37.388 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - Returning:{}test2 success
+09:31:37.388 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - after selectAll
+09:32:18.177 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 9836 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+09:32:18.178 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:32:18.707 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:32:18.712 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:32:18.712 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:32:18.712 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:32:18.753 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:32:18.753 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 550 ms
+09:32:18.860 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:32:18.942 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:32:18.953 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:32:18.960 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.038 seconds (JVM running for 1.418)
+09:32:30.139 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 9952 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+09:32:30.141 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:32:30.715 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:32:30.720 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:32:30.720 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:32:30.720 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:32:30.763 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:32:30.763 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 592 ms
+09:32:30.867 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:32:30.953 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:32:30.963 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:32:30.969 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.072 seconds (JVM running for 1.439)
+09:32:34.509 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:32:34.509 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:32:34.509 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+09:32:34.520 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - before selectAll
+09:32:34.527 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTestsController - info级别日志，name:yinyifan, password:456
+09:32:34.527 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTestsController - error级别日志，test2 error message!
+09:32:34.528 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - Returning:test2 success
+09:32:34.528 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - after selectAll
+2020-12-23 09:40:03.319 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 5624 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+2020-12-23 09:40:03.319 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-12-23 09:40:03.842 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-23 09:40:03.858 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-23 09:40:03.858 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-23 09:40:03.858 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-23 09:40:03.890 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-23 09:40:03.890 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 535 ms
+2020-12-23 09:40:04.000 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 09:40:04.093 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-23 09:40:04.093 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-23 09:40:04.109 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.024 seconds (JVM running for 1.395)
+2020-12-23 09:40:09.446 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-23 09:40:09.446 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-23 09:40:09.446 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2020-12-23 09:40:09.457 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - before1 selectAll
+2020-12-23 09:40:09.457 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - before2 selectAll
+2020-12-23 09:40:09.463 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTestsController - info级别日志，name:yinyifan, password:456
+2020-12-23 09:40:09.464 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTestsController - error级别日志，test2 error message!
+2020-12-23 09:40:09.465 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - Returning:test2 success
+2020-12-23 09:40:09.465 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - after selectAll
+2020-12-23 09:40:33.528 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 8464 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+2020-12-23 09:40:33.545 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-12-23 09:40:34.063 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-23 09:40:34.063 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-23 09:40:34.063 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-23 09:40:34.063 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-23 09:40:34.110 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-23 09:40:34.110 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 550 ms
+2020-12-23 09:40:34.219 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 09:40:34.298 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-23 09:40:34.314 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-23 09:40:34.314 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.062 seconds (JVM running for 1.45)
+2020-12-23 09:40:36.776 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-23 09:40:36.776 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-23 09:40:36.777 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-12-23 09:40:36.788 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - before1 selectAll
+2020-12-23 09:40:36.788 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - before2 selectAll
+2020-12-23 09:40:36.794 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTestsController - info级别日志，name:yinyifan, password:456
+2020-12-23 09:40:36.795 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTestsController - error级别日志，test2 error message!
+2020-12-23 09:40:36.795 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - Returning:test2 success
+2020-12-23 09:40:36.796 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - after selectAll
+2020-12-23 09:47:10.388 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 11816 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+2020-12-23 09:47:10.388 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-12-23 09:47:10.934 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-23 09:47:10.934 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-23 09:47:10.934 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-23 09:47:10.934 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-23 09:47:10.981 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-23 09:47:10.981 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 562 ms
+2020-12-23 09:47:11.106 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 09:47:11.205 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-23 09:47:11.205 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-23 09:47:11.221 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.07 seconds (JVM running for 1.453)
+2020-12-23 09:47:15.318 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-23 09:47:15.318 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-23 09:47:15.319 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-12-23 09:47:15.336 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No MethodInvocation found: Check that an AOP invocation is in progress and that the ExposeInvocationInterceptor is upfront in the interceptor chain. Specifically, note that advices with order HIGHEST_PRECEDENCE will execute before ExposeInvocationInterceptor! In addition, ExposeInvocationInterceptor and ExposeInvocationInterceptor.currentInvocation() must be invoked from the same thread.] with root cause
+java.lang.IllegalStateException: No MethodInvocation found: Check that an AOP invocation is in progress and that the ExposeInvocationInterceptor is upfront in the interceptor chain. Specifically, note that advices with order HIGHEST_PRECEDENCE will execute before ExposeInvocationInterceptor! In addition, ExposeInvocationInterceptor and ExposeInvocationInterceptor.currentInvocation() must be invoked from the same thread.
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.currentInvocation(ExposeInvocationInterceptor.java:74)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.getJoinPointMatch(AbstractAspectJAdvice.java:658)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:44)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.ymj.demo.LoggerTestsController$$EnhancerBySpringCGLIB$$20da6cfe.test2(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-12-23 09:50:07.197 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 14512 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+2020-12-23 09:50:07.197 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-12-23 09:50:07.730 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-23 09:50:07.730 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-23 09:50:07.730 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-23 09:50:07.730 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-23 09:50:07.778 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-23 09:50:07.778 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 550 ms
+2020-12-23 09:50:07.888 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 09:50:07.981 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-23 09:50:07.981 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-23 09:50:07.997 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.046 seconds (JVM running for 1.452)
+2020-12-23 09:50:21.596 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-23 09:50:21.596 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-23 09:50:21.597 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-12-23 09:50:21.607 [http-nio-8080-exec-1] INFO  com.ymj.demo.AnotherLogging - highest_precedence before selectAll
+2020-12-23 09:50:21.608 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - lowest_precedence before selectAll
+2020-12-23 09:50:21.614 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTestsController - info级别日志，name:yinyifan, password:456
+2020-12-23 09:50:21.615 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTestsController - error级别日志，test2 error message!
+2020-12-23 09:50:21.615 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - lowest_precedence Returning:test2 success
+2020-12-23 09:50:21.615 [http-nio-8080-exec-1] INFO  com.ymj.demo.Logging - lowest_precedence after selectAll
+2020-12-23 09:50:21.615 [http-nio-8080-exec-1] INFO  com.ymj.demo.AnotherLogging - highest_precedence Returning:test2 success
+2020-12-23 09:50:21.615 [http-nio-8080-exec-1] INFO  com.ymj.demo.AnotherLogging - highest_precedence after selectAll
+2020-12-23 10:14:54.005 [main] INFO  com.ymj.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_171 on LAPTOP-L11BJ5SS with PID 13956 (D:\IdeaWorkspace\LogDemo\target\classes started by 尹明君 in D:\IdeaWorkspace\LogDemo)
+2020-12-23 10:14:54.005 [main] INFO  com.ymj.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2020-12-23 10:14:54.537 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-12-23 10:14:54.553 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-23 10:14:54.553 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-23 10:14:54.553 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-23 10:14:54.584 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-23 10:14:54.584 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 547 ms
+2020-12-23 10:14:54.695 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:14:54.788 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-23 10:14:54.788 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-23 10:14:54.807 [main] INFO  com.ymj.demo.DemoApplication - Started DemoApplication in 1.041 seconds (JVM running for 1.448)
+2020-12-23 10:15:13.449 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-23 10:15:13.449 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-23 10:15:13.450 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-12-23 10:15:13.468 [http-nio-8080-exec-1] INFO  com.ymj.demo.LoggerTestsController - info级别日志，name:yinmingjun, password:123
+2020-12-23 10:15:13.469 [http-nio-8080-exec-1] ERROR com.ymj.demo.LoggerTestsController - error级别日志，test1 error message!
