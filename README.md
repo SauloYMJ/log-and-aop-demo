@@ -1,14 +1,17 @@
 # log-and-aop-demo
-# 切入点表达式的格式： 
+##### 切入点表达式的格式： 
                    访问修饰符        返回值类型（必填）      包和类        方法（必填）  方法参数           异常
     execution(modifiers-pattern? ret-type-pattern declaring-type-pattern?name-pattern(param-pattern)  throws-pattern?) 
 
-# 通配符的使用:
+##### 通配符的使用:
 
-　  *：匹配所有字符
-   ..：一般用于匹配多个包，多个参数
-    +：表示类及其子类
-　　运算符有：&&、||、!
+　  *：匹配所有字符  
+   
+   ..：一般用于匹配多个包，多个参数  
+   
+    +：表示类及其子类  
+    
+　　运算符有：&&、||、!  
   
     除了返回类型模式（上面代码片断中的ret-type-pattern），名字模式和参数模式以外， 所有的部分都是可选的。
     返回类型模式决定了方法的返回类型必须依次匹配一个连接点。 你会使用的最频繁的返回类型模式是*，它代表了匹配任意的返回类型。 
@@ -17,24 +20,22 @@
     模式(*)匹配了一个接受一个任何类型的参数的方法。 模式(*,String)匹配了一个接受两个参数的方法，第一个可以是任意类型， 第二个则必须是String类型。
     更多的信息请参阅AspectJ编程指南中 语言语义的部分。
 
-## 通用切入点表达式的例子
-# 任意公共方法的执行：
+##### 通用切入点表达式的例子
+###### 任意公共方法的执行：
   execution（public * *（..））
-# 任何一个名字以“set”开始的方法的执行：
+###### 任何一个名字以“set”开始的方法的执行：
   execution（* set*（..））
-# AccountService接口定义的任意方法的执行：
+###### AccountService接口定义的任意方法的执行：
   execution（* com.xyz.service.AccountService.*（..））
-# 在service包中定义的任意方法的执行：
+###### 在service包中定义的任意方法的执行：
   execution（* com.xyz.service.*.*（..））
-# 在service包或其子包中定义的任意方法的执行：
+###### 在service包或其子包中定义的任意方法的执行：
   execution（* com.xyz.service..*.*（..））
-# 在service包中的任意连接点（在Spring AOP中只是方法执行）：
+###### 在service包中的任意连接点（在Spring AOP中只是方法执行）：
   within（com.xyz.service.*）
-# 在service包或其子包中的任意连接点（在Spring AOP中只是方法执行）：
+###### 在service包或其子包中的任意连接点（在Spring AOP中只是方法执行）：
   within（com.xyz.service..*）
-# 实现了AccountService接口的代理对象的任意连接点 （在Spring AOP中只是方法执行）：
+###### 实现了AccountService接口的代理对象的任意连接点 （在Spring AOP中只是方法执行）：
   this（com.xyz.service.AccountService）
-# 'this'在绑定表单中更加常用：- 请参见后面的通知一节中了解如何使得代理对象在通知体内可用。
-# 实现AccountService接口的目标对象的任意连接点 （在Spring AOP中只是方法执行）：
+###### 实现AccountService接口的目标对象的任意连接点 （在Spring AOP中只是方法执行）：
   target（com.xyz.service.AccountService）
-# 'target'在绑定表单中更加常用：- 请参见后面的通知一节中了解如何使得目标对象在通知体内可用。
