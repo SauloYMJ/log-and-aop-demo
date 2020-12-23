@@ -3,7 +3,7 @@
                    访问修饰符        返回值类型（必填）      包和类        方法（必填）  方法参数           异常
     execution(modifiers-pattern? ret-type-pattern declaring-type-pattern?name-pattern(param-pattern)  throws-pattern?) 
 
-## 通配符的使用:
+# 通配符的使用:
 
 　  *：匹配所有字符
    ..：一般用于匹配多个包，多个参数
